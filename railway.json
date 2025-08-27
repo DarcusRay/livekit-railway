@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "startCommand": "livekit-server --config /etc/livekit/config.yaml --bind 0.0.0.0:7880"
+  }
+}
